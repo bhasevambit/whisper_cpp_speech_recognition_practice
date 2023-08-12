@@ -1,4 +1,7 @@
 # User files
+wav/
+wav/*
+*.wav
 
 # User modules
 whisper.cpp
