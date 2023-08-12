@@ -1,1 +1,3 @@
-# whisper_cpp_speech_recognition_training
+# Whisper.cpp Speech-Recognition Training
+
+This repository is Whisper.cpp Speech-Recognition Training Test Code.
