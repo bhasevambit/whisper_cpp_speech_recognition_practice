@@ -14,8 +14,19 @@ Please download model below command.
 
 - `./submodules/whisper.cpp/models/download-coreml-model.sh medium`
 
+## Compile codes
+
+Please complile below commnads.
+
+- `cd ./submodules/whisper.cpp`
+- `make clean`
+
 ## Note
 
-- This repository is used make command.
+- This repository is used below commands. Please install below commands.
 
-  - Please install `make`.
+  - `make`
+  - `gcc`
+  - `g++`
+
+- When using a **Windows**, Whisper.cpp is not easy to install. Therefore, I recommend using openai/whisper.
