@@ -2,6 +2,9 @@
 wav/
 wav/*
 *.wav
+result/
+result/*
+speech_recognition_result.txt
 
 # User modules
 whisper.cpp
