@@ -12,14 +12,20 @@ Please git clone at `./submodules` below repositories.
 
 Please download model below command.
 
-- `./submodules/whisper.cpp/models/download-coreml-model.sh medium`
+- `./submodules/whisper.cpp/models/download-ggml-model.sh tiny`
+- `./submodules/whisper.cpp/models/download-ggml-model.sh base`
+- `./submodules/whisper.cpp/models/download-ggml-model.sh small`
+- `./submodules/whisper.cpp/models/download-ggml-model.sh medium`
+- `./submodules/whisper.cpp/models/download-ggml-model.sh large-v1`
+- `./submodules/whisper.cpp/models/download-ggml-model.sh large`
+(For detail : <https://github.com/ggerganov/whisper.cpp/tree/master/models#available-models>)
 
 ## Compile codes
 
 Please complile below commnads.
 
 - `cd ./submodules/whisper.cpp`
-- `make clean`
+- `make`
 
 ## Note
 
