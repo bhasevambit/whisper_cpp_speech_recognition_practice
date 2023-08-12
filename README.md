@@ -37,7 +37,7 @@ whisper.cpp is only using 16kHz and 16bit sampling data. So, Change below commna
 ### Speech Recognition
 
 Execute below command. (e.g target audio file is "./wav/sample_speech_audio_file01_16bit_16kHz.wav")
-- `./submodules/whisper.cpp/main -m ./submodules/whisper.cpp/models/ggml-medium.bin -f ./wav/sample_speech_audio_file01_16bit_16kHz.wav -l ja`
+- `./submodules/whisper.cpp/main -m ./submodules/whisper.cpp/models/ggml-medium.bin -f ./wav/sample_speech_audio_file01_16bit_16kHz.wav -l ja > result/speech_recognition_result.txt`
 
 ## Note
 
