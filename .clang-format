@@ -8,9 +8,6 @@ AlignConsecutiveAssignments: true
 # 連続する行の宣言の位置を揃える
 AlignConsecutiveDeclarations: true
 
-# マクロの位置を揃える
-# AlignConsecutiveMacros: true
-
 # 二項演算子と三項演算子を揃える
 AlignOperands: true
 
