@@ -7,7 +7,9 @@ result/*
 speech_recognition_result.txt
 
 # User modules
-whisper.cpp
+submodules/
+submodules/*
+whisper.cpp/
 
 # Prerequisites
 *.d
