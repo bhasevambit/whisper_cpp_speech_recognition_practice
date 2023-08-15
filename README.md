@@ -17,6 +17,18 @@ And, This repository use docker container to compile C/C++ codes and execute spe
 
 `docker container start -ai container_of_whisper_cpp`
 
+### Change Audio-file to 16kHz and 16bit sampling data
+
+whisper.cpp is only using 16kHz and 16bit sampling data. So, Change below commnads on Container. (e.g target audio file is "~/sample_speech_audio_file01.wav")
+
+- `ffmpeg -i ~/sample_speech_audio_file01.wav -ar 16000 -ac 1 -c:a pcm_s16le ~/sample_speech_audio_file01_16bit_16kHz.wav`
+
+### Speech Recognition
+
+Execute below command on container. (e.g target audio file is "~/sample_speech_audio_file01_16bit_16kHz.wav")
+
+- `./whisper.cpp/main -m ./whisper.cpp/models/ggml-small.bin -f ~/sample_speech_audio_file01_16bit_16kHz.wav -l ja > ~/speech_recognition_result.txt`
+
 ### Docker container remove
 
 `docker container remove container_of_whisper_cpp`
