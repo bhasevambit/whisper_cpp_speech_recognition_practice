@@ -43,8 +43,9 @@ Execute below command. (e.g target audio file is "./wav/sample_speech_audio_file
 
 - This repository is used below commands. Please install below commands.
 
-  - `make`
   - `gcc`
   - `g++`
+  - `make`
+  - `cmake`
 
 - When using a **Windows**, Whisper.cpp is not easy to install. Therefore, I recommend using openai/whisper.
