@@ -25,7 +25,7 @@ RUN apt install -y vim git wget
 RUN apt install -y build-essential cmake
 
 # --- Other Package Install ---
-RUN apt install ffmpeg
+RUN apt install -y ffmpeg
 
 # --- whisper.cpp Library Install ---
 RUN git clone https://github.com/ggerganov/whisper.cpp.git
@@ -36,4 +36,4 @@ RUN ./whisper.cpp/models/download-ggml-model.sh base
 RUN ./whisper.cpp/models/download-ggml-model.sh small
 
 # --- whisper.cpp Compile codes ---
-RUN make
+RUN cd ./whisper.cpp && make
