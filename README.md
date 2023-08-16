@@ -37,6 +37,7 @@ Execute below command on container. (e.g target audio file is "~/sample_speech_a
 
 `docker image rm container_of_whisper_cpp`
 
+<br>
 
 # [Alternative Apploach] Non-Container whisper.cpp
 
