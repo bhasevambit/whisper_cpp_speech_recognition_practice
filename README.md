@@ -82,7 +82,7 @@ Execute below command. (e.g target audio file is "./wav/sample_speech_audio_file
 
 ## Note
 
-- This repository is used below commands. Please install below commands.
+- This repository is used below commands. Please install below packages.
 
   - `gcc`
   - `g++`
