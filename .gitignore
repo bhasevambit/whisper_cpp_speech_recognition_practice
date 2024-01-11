@@ -1,4 +1,5 @@
 # User files
+.DS_Store
 wav/*
 *.wav
 result/*
