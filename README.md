@@ -1,6 +1,6 @@
-# Whisper.cpp Speech-Recognition Training
+# Whisper.cpp Speech-Recognition Practice
 
-This repository is Whisper.cpp Speech-Recognition Training Test Code.
+This repository is Whisper.cpp Speech-Recognition Practice Test Code.
 And, This repository use docker container to compile C/C++ codes and execute speech recognition.
 
 ## Usage
